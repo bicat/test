@@ -7,3 +7,4 @@ Node walk(const Node& u, int turn) {
   if(turn == 2) dir = (dir + 1) % 4; // 顺时针
   return Node(u.r + dr[dir], u.c + dc[dir], dir);
 }
+1
